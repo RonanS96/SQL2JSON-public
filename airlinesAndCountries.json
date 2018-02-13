@@ -1,0 +1,50 @@
+{
+	"$schema": "http://json-schema.org/draft-04",
+		"type": "object",
+		"properties": {
+			"airline_name": {
+				"type": "string"
+			},	
+			"iata": {
+				"type": "string"
+			},
+			"icao": {
+				"type": "string"
+			},
+			"callsign": {
+				"type": "string"
+			},
+            "country": {
+                "type": "string"
+            },
+            "alid": {
+                "type": "integer"
+            },
+            "alias": {
+                "type": "string"
+            },
+            "mode": {
+                "type": "string"
+            },
+            "active": {
+                "enum": ["Y","N"]
+            },
+            "code": {
+                "type": "string"
+            },
+            "country_name": {
+                "type": "string"
+            },
+            "oa_code": {
+                "type": "string"
+            },
+            "dst": {
+                "type": "string"
+            }
+		},
+		"required":[
+			"airline_name",
+            "alid"
+		]
+}
+

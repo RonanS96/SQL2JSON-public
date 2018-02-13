@@ -1,0 +1,62 @@
+{
+	"$schema": "http://json-schema.org/draft-04",
+		"type": "object",
+		"properties": {
+			"alid": {
+				"type": "integer"
+			},
+			"src_ap": {
+				"type": "string"
+			},
+			"src_apid": {
+				"type": "integer"
+			},
+			"dst_ap": {
+				"type": "string"
+			},
+			"dst_apid": {
+          "type": "integer"
+      },
+      "codeshare": {
+          "type": "string"
+      },
+      "stops": {
+          "type": "integer"
+      },
+      "equipment": {
+          "type": "string"
+      },
+            "rid": {
+                "type": "integer"
+            },
+            "name": {
+                "type": "string"
+            },
+            "city": {
+                "type": "integer"
+            },
+            "iata": {
+                "type": "string"
+            },
+            "icao": {
+                "type": "string"
+            },
+            "x": {
+                "type": "string"
+            },
+            "y": {
+                "type": "string"
+            },
+            "elevation": {
+                "type": "integer"
+            },
+            "apid": {
+                "type": "integer"
+            }
+		},
+		"required":[
+		   "alid",
+           "src_ap",
+           "dst_ap"
+		]
+}

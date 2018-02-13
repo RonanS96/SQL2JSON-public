@@ -1,0 +1,18 @@
+{
+	"airport_name": "Ararat Airport",
+	"city": 1,
+	"iata": "ARY",
+	"icao": "YARA",
+	"x": "142.98899841308594",
+	"y": "-37.30939865112305",
+	"elevation": 1008,
+	"apid": 12012,
+	"cid": 1,
+	"country": "AS",
+	"code": "AS",
+	"country_name": "Australia",
+	"oa_code": "AU",
+	"dst": "U"
+}
+
+No city name or timezone or tz_id...

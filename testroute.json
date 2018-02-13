@@ -1,0 +1,18 @@
+{
+	"alid": 410,
+	"src_ap": "AER",
+	"src_apid": 2965,
+	"dst_ap": "KZN",
+	"dst_apid": 2990,
+    "stops": 0,
+    "equipment": "CR2",
+    "rid": 1,
+    "name": "Sochi International Airport",
+    "city": 5501,
+    "iata": "AER",
+    "icao": "URSS",
+    "x": "39.956600189209",
+    "y": "43.449901580811",
+    "elevation": 89,
+    "apid": 2965
+}

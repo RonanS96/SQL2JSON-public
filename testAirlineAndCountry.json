@@ -1,0 +1,16 @@
+{
+	"airline_name": "Royal Aruban Airline",
+	"iata": "V5",
+	"icao": "RYL",
+	"callsign": "ROYAL ARUBAN",
+	"country": "AA",
+    "alid": 4251,
+    "mode": "F",
+    "active": "N",
+    "code": "AA",
+    "country_name": "Aruba",
+    "oa_code": "AW",
+    "dst": "U" 
+}
+
+No alias in this one

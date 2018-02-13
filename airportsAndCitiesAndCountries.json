@@ -1,0 +1,63 @@
+{
+	"$schema": "http://json-schema.org/draft-04",
+					"type": "object",
+					"properties": {
+						"airport_name": {
+							"type": "string"
+						},
+						"city": {
+							"type": "integer"
+						},
+						"iata": {
+							"type": "string"
+						},
+						"icao": {
+							"type": "string"
+						},
+						"x": {
+							"type": "string"
+						},
+            "y": {
+                "type": "string"
+            },
+            "elevation": {
+                "type": "integer"
+            },
+            "apid": {
+                "type": "integer"
+            },
+            "cid": {
+                "type": "integer"
+            },
+            "city_name": {
+                "type": "string"
+            },
+            "country": {
+                "type": "string"
+            },
+            "timezone": {
+                "type": "string"
+            },
+            "tz_id": {
+                "type": "string"
+            },
+            "code": {
+                "type": "string"
+            },
+            "country_name": {
+                "type": "string"
+            },
+            "oa_code": {
+                "type": "string"
+            },
+            "dst": {
+                "type": "string"
+            }
+		},
+		"required":[
+			"airport_name",
+             "iata",
+             "x",
+             "y"
+		]
+}
